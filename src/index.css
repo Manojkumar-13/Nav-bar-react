@@ -1,0 +1,58 @@
+*,*::after,*::before{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+html{
+  font-size: 16px;
+}
+nav{
+  width: 100%;
+}
+.nav-center{
+  padding: 1rem;
+}
+.nav-header{
+  margin: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+.nav-toggle{
+  background: none;
+  border: none;
+  align-self: center;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.nav-toggle.rotate{
+  transform: rotate(90deg);
+  
+}
+.nav-toggle:hover{
+  opacity: 0.5;
+}
+.links-container{
+  height: 0rem;
+  overflow: hidden;
+  transition: all ease-out 0.5s;
+}
+
+a{  
+  text-decoration: none;
+  color: black;
+  cursor:pointer;
+}
+.link-list{
+  padding: 0.7rem;
+  font-size: 1.2rem;
+  
+}
+.link-list:hover{
+  background-color: rgba(127, 255, 212,0.3);
+}
+.links{
+  list-style: none;
+  
+  
+}
